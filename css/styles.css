@@ -1,0 +1,16 @@
+#animated-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeInOut 2s infinite;
+    color: #ff0000; /* Color del texto */
+    text-shadow: 2px 2px 4px #000000; /* Sombra del texto */
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
